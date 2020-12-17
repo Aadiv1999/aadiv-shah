@@ -277,16 +277,21 @@
   .u-section-3 .u-list-1 {
     width: 340px;
   }
-}.u-section-4 .u-sheet-1 {
-  min-height: 386px;
+}.u-section-4 {
+  background-image: none;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 417px;
 }
 
 .u-section-4 .u-text-1 {
-  margin: 60px auto 0;
+  margin: 67px auto 0;
 }
 
 .u-section-4 .u-text-2 {
-  margin: 40px 0 60px;
+  font-size: 1.125rem;
+  margin: 20px auto 60px;
 }.u-section-5 {
   background-image: none;
 }
