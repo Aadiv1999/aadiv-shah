@@ -31037,6 +31037,10 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 1.125rem;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Georgia, serif;
         }
         ol
         {
@@ -31182,6 +31186,13 @@ a.u-link.u-text-hover-grey-90:hover {
         blockquote
         {
         border-color: #478ac9;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > ul:not(.u-unstyled),
+        .u-gradient > .u-container-layout > ul:not(.u-unstyled),
+        .u-image:not(.u-shading) > .u-container-layout > ul:not(.u-unstyled),
+        ul:not(.u-unstyled)
+        {
+        color: #000000;
         }
         /** color-rules **/
 
