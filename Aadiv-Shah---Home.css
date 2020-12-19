@@ -2012,7 +2012,7 @@
   }
 
   .u-section-18 .u-image-1 {
-    margin-left: calc(((100% - 720px) / 2) + 150px);
+    margin-left: auto;
   }
 
   .u-section-18 .u-gallery-1 {
@@ -2046,7 +2046,13 @@
 
 @media (max-width: 575px) {
   .u-section-18 {
-    min-height: 3173px;
+    min-height: 1300px;
+  }
+
+  .u-section-18 .u-text-1 {
+    margin-top: 0;
+    margin-right: calc(((100% - 340px) / 2) + 17px);
+    margin-left: calc(((100% - 340px) / 2) + 16px);
   }
 
   .u-section-18 .u-image-1 {
@@ -2057,5 +2063,9 @@
 
   .u-section-18 .u-gallery-1 {
     height: 718px;
+  }
+
+  .u-section-18 .u-text-2 {
+    margin-bottom: 0;
   }
 }
